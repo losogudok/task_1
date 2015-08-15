@@ -24,9 +24,15 @@ html {
 }
 
 .page__header-row {
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 10px;
 }
 
@@ -185,11 +191,17 @@ html {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.59);
   z-index: 2;
-  justify-content: center;
-  align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .modal__backdrop:target {
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -202,9 +214,15 @@ html {
 }
 
 .flight-info__row {
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 5px 0;
 }
 
