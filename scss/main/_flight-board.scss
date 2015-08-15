@@ -42,7 +42,7 @@
 
 	&__column {
 		&_type {
-			width: 8%;
+			width: 6%;
 		}
 
 		&_number {
@@ -62,7 +62,7 @@
 		}
 
 		&_destination {
-			width: 10%;
+			width: 12%;
 		}
 
 		&_time {
@@ -110,6 +110,18 @@
 
 		&_long {
 			display: inline;
+		}
+	}
+
+	&__control-departure:not(:checked) ~ .flight-board__body {
+		.flight-board__departure {
+			display: none;
+		}
+	}
+
+	&__control-arrival:not(:checked) ~ .flight-board__body {
+		.flight-board__arrival {
+			display: none;
 		}
 	}
 }

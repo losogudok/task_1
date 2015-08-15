@@ -83,7 +83,7 @@ html {
 }
 
 .flight-board__column_type {
-  width: 8%;
+  width: 6%;
 }
 
 .flight-board__column_number {
@@ -103,7 +103,7 @@ html {
 }
 
 .flight-board__column_destination {
-  width: 10%;
+  width: 12%;
 }
 
 .flight-board__column_time {
@@ -147,6 +147,14 @@ html {
 
 .flight-board__cell-text_long {
   display: inline;
+}
+
+.flight-board__control-departure:not(:checked) ~ .flight-board__body .flight-board__departure {
+  display: none;
+}
+
+.flight-board__control-arrival:not(:checked) ~ .flight-board__body .flight-board__arrival {
+  display: none;
 }
 
 .label {

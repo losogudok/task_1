@@ -10,8 +10,8 @@
 		<title>Расписание рейсов</title>
 	</head>
 	<body class="page">
-		<input type="checkbox" id="departure" class="g-hide"/>
-		<input type="checkbox" id="arrival" class="g-hide"/>
+		<input type="checkbox" id="departure" class="flight-board__control-departure g-hide"/>
+		<input type="checkbox" id="arrival" class="flight-board__control-arrival g-hide"/>
 
 		<div class="page__header">
 			<div class="page__header-row">
@@ -52,7 +52,7 @@
 			</div>
 		</div>
 		<div class="flight-board__body page__body">
-			<a class="flight-board__row flight-board__row_odd flight-board__row_link" href="#flight_id_1805">
+			<a class="flight-board__row flight-board__row_odd flight-board__row_link flight-board__departure" href="#flight_id_1805">
 				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
 					вылет
 				</div>
@@ -81,7 +81,7 @@
 					-
 				</div>
 			</a>
-			<a class="flight-board__row flight-board__row_even flight-board__row_link" href="#flight_id_1341">
+			<a class="flight-board__row flight-board__row_even flight-board__row_link flight-board__departure" href="#flight_id_1341">
 				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
 					вылет
 				</div>
@@ -110,7 +110,7 @@
 					-
 				</div>
 			</a>
-			<a class="flight-board__row flight-board__row_odd flight-board__row_link" href="#flight_id_1806">
+			<a class="flight-board__row flight-board__row_odd flight-board__row_link flight-board__arrival" href="#flight_id_1806">
 				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
 					прилет
 				</div>
@@ -139,7 +139,7 @@
 					-
 				</div>
 			</a>
-			<a class="flight-board__row flight-board__row_even flight-board__row_link" href="#flight_id_4401">
+			<a class="flight-board__row flight-board__row_even flight-board__row_link flight-board__departure" href="#flight_id_4401">
 				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
 					вылет
 				</div>
@@ -168,7 +168,7 @@
 					Судно заменено на Boeing 737-800
 				</div>
 			</a>
-			<a class="flight-board__row flight-board__row_odd flight-board__row_link" href="#flight_id_4460">
+			<a class="flight-board__row flight-board__row_odd flight-board__row_link flight-board__departure" href="#flight_id_4460">
 				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
 					вылет
 				</div>
@@ -197,7 +197,7 @@
 					-
 				</div>
 			</a>
-			<a class="flight-board__row flight-board__row_odd flight-board__row_link" href="#flight_id_1485">
+			<a class="flight-board__row flight-board__row_even flight-board__row_link flight-board__arrival" href="#flight_id_1485">
 				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
 					прилет
 				</div>
@@ -226,7 +226,7 @@
 					-
 				</div>
 			</a>
-			<a class="flight-board__row flight-board__row_even flight-board__row_link" href="#flight_id_3386">
+			<a class="flight-board__row flight-board__row_odd flight-board__row_link flight-board__arrival" href="#flight_id_3386">
 				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
 					прилет
 				</div>
@@ -255,7 +255,7 @@
 					-
 				</div>
 			</a>
-			<a class="flight-board__row flight-board__row_odd flight-board__row_link" href="#flight_id_6543">
+			<a class="flight-board__row flight-board__row_even flight-board__row_link flight-board__arrival" href="#flight_id_6543">
 				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
 					прилет
 				</div>
@@ -284,7 +284,7 @@
 					-
 				</div>
 			</a>
-			<a class="flight-board__row flight-board__row_even flight-board__row_link" href="#flight_id_4443">
+			<a class="flight-board__row flight-board__row_odd flight-board__row_link flight-board__departure" href="#flight_id_4443">
 				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
 					вылет
 				</div>
@@ -313,7 +313,7 @@
 					Судно заменено на Boeing 737-800
 				</div>
 			</a>
-			<a class="flight-board__row flight-board__row_odd flight-board__row_link" href="#flight_id_2365">
+			<a class="flight-board__row flight-board__row_even flight-board__row_link flight-board__departure" href="#flight_id_2365">
 				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
 					вылет
 				</div>
@@ -342,7 +342,7 @@
 					-
 				</div>
 			</a>
-			<a class="flight-board__row flight-board__row_odd flight-board__row_link" href="#flight_id_1805">
+			<a class="flight-board__row flight-board__row_odd flight-board__row_link flight-board__departure" href="#flight_id_1807">
 				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
 					вылет
 				</div>
@@ -371,7 +371,7 @@
 					-
 				</div>
 			</a>
-			<a class="flight-board__row flight-board__row_even flight-board__row_link" href="#flight_id_1341">
+			<a class="flight-board__row flight-board__row_even flight-board__row_link flight-board__departure" href="#flight_id_1342">
 				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
 					вылет
 				</div>
@@ -400,7 +400,7 @@
 					-
 				</div>
 			</a>
-			<a class="flight-board__row flight-board__row_odd flight-board__row_link" href="#flight_id_1806">
+			<a class="flight-board__row flight-board__row_odd flight-board__row_link flight-board__arrival" href="#flight_id_1808">
 				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
 					прилет
 				</div>
@@ -429,7 +429,7 @@
 					-
 				</div>
 			</a>
-			<a class="flight-board__row flight-board__row_even flight-board__row_link" href="#flight_id_4401">
+			<a class="flight-board__row flight-board__row_even flight-board__row_link flight-board__departure" href="#flight_id_4402">
 				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
 					вылет
 				</div>
@@ -458,7 +458,7 @@
 					Судно заменено на Boeing 737-800
 				</div>
 			</a>
-			<a class="flight-board__row flight-board__row_odd flight-board__row_link" href="#flight_id_4460">
+			<a class="flight-board__row flight-board__row_odd flight-board__row_link flight-board__departure" href="#flight_id_4461">
 				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
 					вылет
 				</div>
@@ -487,7 +487,7 @@
 					-
 				</div>
 			</a>
-			<a class="flight-board__row flight-board__row_odd flight-board__row_link" href="#flight_id_1485">
+			<a class="flight-board__row flight-board__row_even flight-board__row_link flight-board__arrival" href="#flight_id_1486">
 				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
 					прилет
 				</div>
@@ -516,7 +516,7 @@
 					-
 				</div>
 			</a>
-			<a class="flight-board__row flight-board__row_even flight-board__row_link" href="#flight_id_3386">
+			<a class="flight-board__row flight-board__row_odd flight-board__row_link flight-board__arrival" href="#flight_id_3387">
 				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
 					прилет
 				</div>
@@ -545,7 +545,7 @@
 					-
 				</div>
 			</a>
-			<a class="flight-board__row flight-board__row_odd flight-board__row_link" href="#flight_id_6543">
+			<a class="flight-board__row flight-board__row_even flight-board__row_link flight-board__arrival" href="#flight_id_6544">
 				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
 					прилет
 				</div>
@@ -574,7 +574,7 @@
 					-
 				</div>
 			</a>
-			<a class="flight-board__row flight-board__row_even flight-board__row_link" href="#flight_id_4443">
+			<a class="flight-board__row flight-board__row_odd flight-board__row_link flight-board__departure" href="#flight_id_4444">
 				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
 					вылет
 				</div>
@@ -603,7 +603,7 @@
 					Судно заменено на Boeing 737-800
 				</div>
 			</a>
-			<a class="flight-board__row flight-board__row_odd flight-board__row_link" href="#flight_id_2365">
+			<a class="flight-board__row flight-board__row_even flight-board__row_link flight-board__departure" href="#flight_id_2366">
 				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
 					вылет
 				</div>
@@ -645,7 +645,7 @@
 					<div class="flight-info">
 						<div class="flight-info__row">
 							<div class="flight-info__column flight-info__column_left">Номер рейса</div>
-							<div class="flight-info__column flight-info__column_right">4401</div>
+							<div class="flight-info__column flight-info__column_right">1805</div>
 						</div>
 						<div class="flight-info__row">
 							<div class="flight-info__column flight-info__column_left">Тип рейса</div>
@@ -653,33 +653,137 @@
 						</div>
 						<div class="flight-info__row">
 							<div class="flight-info__column flight-info__column_left">Авиакомпания</div>
-							<div class="flight-info__column flight-info__column_right">Пегас Флай</div>
+							<div class="flight-info__column flight-info__column_right">Северный Ветер</div>
 						</div>
 						<div class="flight-info__row">
 							<div class="flight-info__column flight-info__column_left">Логотип</div>
 							<div class="flight-info__column flight-info__column_right">
-								<img src="img/pegas_logo.png" alt="Пегас Флай" class="flight-board__cell-image"/>
+								<img src="img/nw_logo.png" alt="Северный ветер"/>
 							</div>
 						</div>
 						<div class="flight-info__row">
 							<div class="flight-info__column flight-info__column_left">Тип судна</div>
-							<div class="flight-info__column flight-info__column_right">Boeing-767-300</div>
+							<div class="flight-info__column flight-info__column_right">Airbus-321</div>
 						</div>
 						<div class="flight-info__row">
 							<div class="flight-info__column flight-info__column_left">Назначение</div>
-							<div class="flight-info__column flight-info__column_right">Ираклион</div>
+							<div class="flight-info__column flight-info__column_right">Монастир</div>
 						</div>
 						<div class="flight-info__row">
 							<div class="flight-info__column flight-info__column_left">Время</div>
-							<div class="flight-info__column flight-info__column_right">1:45</div>
+							<div class="flight-info__column flight-info__column_right">00:15</div>
 						</div>
 						<div class="flight-info__row">
 							<div class="flight-info__column flight-info__column_left">Статус</div>
-							<div class="flight-info__column flight-info__column_right">посадка</div>
+							<div class="flight-info__column flight-info__column_right">вылетел</div>
 						</div>
 						<div class="flight-info__row">
 							<div class="flight-info__column flight-info__column_left">Примечание</div>
-							<div class="flight-info__column flight-info__column_right">Судно заменено на Boeing 737-800</div>
+							<div class="flight-info__column flight-info__column_right">-</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="flight_id_1341" class="modal__backdrop">
+			<div class="modal">
+				<div class="modal__title">Информация о рейсе</div>
+				<a class="modal__close" href="#">
+					<svg viewBox="0 0 24 24" width="100%">
+                        <path fill="#000000" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+                    </svg>
+				</a>
+				<div class="modal__body">
+					<div class="flight-info">
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Номер рейса</div>
+							<div class="flight-info__column flight-info__column_right">1341</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип рейса</div>
+							<div class="flight-info__column flight-info__column_right">вылет</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Авиакомпания</div>
+							<div class="flight-info__column flight-info__column_right">Оренбургские авиалинии</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Логотип</div>
+							<div class="flight-info__column flight-info__column_right">
+								<img src="img/oren_logo.gif" alt="Оренбургские авиалинии"/>
+							</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип судна</div>
+							<div class="flight-info__column flight-info__column_right">Boeing-777-200</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Назначение</div>
+							<div class="flight-info__column flight-info__column_right">Льеж</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Время</div>
+							<div class="flight-info__column flight-info__column_right">00:56</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Статус</div>
+							<div class="flight-info__column flight-info__column_right">вылетел</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Примечание</div>
+							<div class="flight-info__column flight-info__column_right">-</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="flight_id_1806" class="modal__backdrop">
+			<div class="modal">
+				<div class="modal__title">Информация о рейсе</div>
+				<a class="modal__close" href="#">
+					<svg viewBox="0 0 24 24" width="100%">
+                        <path fill="#000000" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+                    </svg>
+				</a>
+				<div class="modal__body">
+					<div class="flight-info">
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Номер рейса</div>
+							<div class="flight-info__column flight-info__column_right">1806</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип рейса</div>
+							<div class="flight-info__column flight-info__column_right">прилет</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Авиакомпания</div>
+							<div class="flight-info__column flight-info__column_right">Северный Ветер</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Логотип</div>
+							<div class="flight-info__column flight-info__column_right">
+								<img src="img/nw_logo.png" alt="Северный ветер"/>
+							</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип судна</div>
+							<div class="flight-info__column flight-info__column_right">Airbus-321</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Назначение</div>
+							<div class="flight-info__column flight-info__column_right">Барселона</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Время</div>
+							<div class="flight-info__column flight-info__column_right">1:35</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Статус</div>
+							<div class="flight-info__column flight-info__column_right">совершил посадку в 1:36</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Примечание</div>
+							<div class="flight-info__column flight-info__column_right">-</div>
 						</div>
 					</div>
 				</div>
@@ -732,6 +836,838 @@
 						<div class="flight-info__row">
 							<div class="flight-info__column flight-info__column_left">Примечание</div>
 							<div class="flight-info__column flight-info__column_right">Судно заменено на Boeing 737-800</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="flight_id_4460" class="modal__backdrop">
+			<div class="modal">
+				<div class="modal__title">Информация о рейсе</div>
+				<a class="modal__close" href="#">
+					<svg viewBox="0 0 24 24" width="100%">
+                        <path fill="#000000" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+                    </svg>
+				</a>
+				<div class="modal__body">
+					<div class="flight-info">
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Номер рейса</div>
+							<div class="flight-info__column flight-info__column_right">4460</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип рейса</div>
+							<div class="flight-info__column flight-info__column_right">вылет</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Авиакомпания</div>
+							<div class="flight-info__column flight-info__column_right">Аэрофлот</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Логотип</div>
+							<div class="flight-info__column flight-info__column_right">
+								<img src="img/aeroflot_logo.jpg" alt="Аэрофлот"/>
+							</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип судна</div>
+							<div class="flight-info__column flight-info__column_right">Airbus-319</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Назначение</div>
+							<div class="flight-info__column flight-info__column_right">Симферополь</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Время</div>
+							<div class="flight-info__column flight-info__column_right">2:00</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Статус</div>
+							<div class="flight-info__column flight-info__column_right">отменен</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Примечание</div>
+							<div class="flight-info__column flight-info__column_right">-</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="flight_id_1485" class="modal__backdrop">
+			<div class="modal">
+				<div class="modal__title">Информация о рейсе</div>
+				<a class="modal__close" href="#">
+					<svg viewBox="0 0 24 24" width="100%">
+                        <path fill="#000000" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+                    </svg>
+				</a>
+				<div class="modal__body">
+					<div class="flight-info">
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Номер рейса</div>
+							<div class="flight-info__column flight-info__column_right">1485</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип рейса</div>
+							<div class="flight-info__column flight-info__column_right">прилет</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Авиакомпания</div>
+							<div class="flight-info__column flight-info__column_right">Аэрофлот</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Логотип</div>
+							<div class="flight-info__column flight-info__column_right">
+								<img src="img/aeroflot_logo.jpg" alt="Аэрофлот"/>
+							</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип судна</div>
+							<div class="flight-info__column flight-info__column_right">Airbus-319</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Назначение</div>
+							<div class="flight-info__column flight-info__column_right">Уфа</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Время</div>
+							<div class="flight-info__column flight-info__column_right">2:20</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Статус</div>
+							<div class="flight-info__column flight-info__column_right">задержан</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Примечание</div>
+							<div class="flight-info__column flight-info__column_right">-</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="flight_id_3386" class="modal__backdrop">
+			<div class="modal">
+				<div class="modal__title">Информация о рейсе</div>
+				<a class="modal__close" href="#">
+					<svg viewBox="0 0 24 24" width="100%">
+                        <path fill="#000000" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+                    </svg>
+				</a>
+				<div class="modal__body">
+					<div class="flight-info">
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Номер рейса</div>
+							<div class="flight-info__column flight-info__column_right">3386</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип рейса</div>
+							<div class="flight-info__column flight-info__column_right">прилет</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Авиакомпания</div>
+							<div class="flight-info__column flight-info__column_right">Оренбургские авиалинии</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Логотип</div>
+							<div class="flight-info__column flight-info__column_right">
+								<img src="img/oren_logo.gif" alt="Оренбургские авиалинии"/>
+							</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип судна</div>
+							<div class="flight-info__column flight-info__column_right">Airbus-330-200</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Назначение</div>
+							<div class="flight-info__column flight-info__column_right">Ростов-на-Дону</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Время</div>
+							<div class="flight-info__column flight-info__column_right">2:56</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Статус</div>
+							<div class="flight-info__column flight-info__column_right">-</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Примечание</div>
+							<div class="flight-info__column flight-info__column_right">-</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="flight_id_6543" class="modal__backdrop">
+			<div class="modal">
+				<div class="modal__title">Информация о рейсе</div>
+				<a class="modal__close" href="#">
+					<svg viewBox="0 0 24 24" width="100%">
+                        <path fill="#000000" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+                    </svg>
+				</a>
+				<div class="modal__body">
+					<div class="flight-info">
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Номер рейса</div>
+							<div class="flight-info__column flight-info__column_right">6435</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип рейса</div>
+							<div class="flight-info__column flight-info__column_right">прилет</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Авиакомпания</div>
+							<div class="flight-info__column flight-info__column_right">Северный Ветер</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Логотип</div>
+							<div class="flight-info__column flight-info__column_right">
+								<img src="img/nw_logo.png" alt="Северный ветер"/>
+							</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип судна</div>
+							<div class="flight-info__column flight-info__column_right">Airbus-321</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Назначение</div>
+							<div class="flight-info__column flight-info__column_right">Омск</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Время</div>
+							<div class="flight-info__column flight-info__column_right">3:01</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Статус</div>
+							<div class="flight-info__column flight-info__column_right">-</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Примечание</div>
+							<div class="flight-info__column flight-info__column_right">-</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="flight_id_4443" class="modal__backdrop">
+			<div class="modal">
+				<div class="modal__title">Информация о рейсе</div>
+				<a class="modal__close" href="#">
+					<svg viewBox="0 0 24 24" width="100%">
+                        <path fill="#000000" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+                    </svg>
+				</a>
+				<div class="modal__body">
+					<div class="flight-info">
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Номер рейса</div>
+							<div class="flight-info__column flight-info__column_right">4443</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип рейса</div>
+							<div class="flight-info__column flight-info__column_right">вылет</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Авиакомпания</div>
+							<div class="flight-info__column flight-info__column_right">Пегас Флай</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Логотип</div>
+							<div class="flight-info__column flight-info__column_right">
+								<img src="img/pegas_logo.png" alt="Пегас Флай"/>
+							</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип судна</div>
+							<div class="flight-info__column flight-info__column_right">Boeing-767-300</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Назначение</div>
+							<div class="flight-info__column flight-info__column_right">Геленджик</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Время</div>
+							<div class="flight-info__column flight-info__column_right">3:02</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Статус</div>
+							<div class="flight-info__column flight-info__column_right">-</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Примечание</div>
+							<div class="flight-info__column flight-info__column_right">Судно заменено на Boeing 737-800</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="flight_id_2365" class="modal__backdrop">
+			<div class="modal">
+				<div class="modal__title">Информация о рейсе</div>
+				<a class="modal__close" href="#">
+					<svg viewBox="0 0 24 24" width="100%">
+                        <path fill="#000000" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+                    </svg>
+				</a>
+				<div class="modal__body">
+					<div class="flight-info">
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Номер рейса</div>
+							<div class="flight-info__column flight-info__column_right">2365</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип рейса</div>
+							<div class="flight-info__column flight-info__column_right">вылет</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Авиакомпания</div>
+							<div class="flight-info__column flight-info__column_right">Аэрофлот</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Логотип</div>
+							<div class="flight-info__column flight-info__column_right">
+								<img src="img/aeroflot_logo.jpg" alt="Аэрофлот"/>
+							</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип судна</div>
+							<div class="flight-info__column flight-info__column_right">Airbus-319</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Назначение</div>
+							<div class="flight-info__column flight-info__column_right">Самара</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Время</div>
+							<div class="flight-info__column flight-info__column_right">3:15</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Статус</div>
+							<div class="flight-info__column flight-info__column_right">-</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Примечание</div>
+							<div class="flight-info__column flight-info__column_right">-</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="flight_id_1807" class="modal__backdrop">
+			<div class="modal">
+				<div class="modal__title">Информация о рейсе</div>
+				<a class="modal__close" href="#">
+					<svg viewBox="0 0 24 24" width="100%">
+                        <path fill="#000000" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+                    </svg>
+				</a>
+				<div class="modal__body">
+					<div class="flight-info">
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Номер рейса</div>
+							<div class="flight-info__column flight-info__column_right">1805</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип рейса</div>
+							<div class="flight-info__column flight-info__column_right">вылет</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Авиакомпания</div>
+							<div class="flight-info__column flight-info__column_right">Северный Ветер</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Логотип</div>
+							<div class="flight-info__column flight-info__column_right">
+								<img src="img/nw_logo.png" alt="Северный ветер"/>
+							</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип судна</div>
+							<div class="flight-info__column flight-info__column_right">Airbus-321</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Назначение</div>
+							<div class="flight-info__column flight-info__column_right">Монастир</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Время</div>
+							<div class="flight-info__column flight-info__column_right">00:15</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Статус</div>
+							<div class="flight-info__column flight-info__column_right">вылетел</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Примечание</div>
+							<div class="flight-info__column flight-info__column_right">-</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="flight_id_1342" class="modal__backdrop">
+			<div class="modal">
+				<div class="modal__title">Информация о рейсе</div>
+				<a class="modal__close" href="#">
+					<svg viewBox="0 0 24 24" width="100%">
+                        <path fill="#000000" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+                    </svg>
+				</a>
+				<div class="modal__body">
+					<div class="flight-info">
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Номер рейса</div>
+							<div class="flight-info__column flight-info__column_right">1341</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип рейса</div>
+							<div class="flight-info__column flight-info__column_right">вылет</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Авиакомпания</div>
+							<div class="flight-info__column flight-info__column_right">Оренбургские авиалинии</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Логотип</div>
+							<div class="flight-info__column flight-info__column_right">
+								<img src="img/oren_logo.gif" alt="Оренбургские авиалинии"/>
+							</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип судна</div>
+							<div class="flight-info__column flight-info__column_right">Boeing-777-200</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Назначение</div>
+							<div class="flight-info__column flight-info__column_right">Льеж</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Время</div>
+							<div class="flight-info__column flight-info__column_right">00:56</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Статус</div>
+							<div class="flight-info__column flight-info__column_right">вылетел</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Примечание</div>
+							<div class="flight-info__column flight-info__column_right">-</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="flight_id_1808" class="modal__backdrop">
+			<div class="modal">
+				<div class="modal__title">Информация о рейсе</div>
+				<a class="modal__close" href="#">
+					<svg viewBox="0 0 24 24" width="100%">
+                        <path fill="#000000" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+                    </svg>
+				</a>
+				<div class="modal__body">
+					<div class="flight-info">
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Номер рейса</div>
+							<div class="flight-info__column flight-info__column_right">1806</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип рейса</div>
+							<div class="flight-info__column flight-info__column_right">прилет</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Авиакомпания</div>
+							<div class="flight-info__column flight-info__column_right">Северный Ветер</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Логотип</div>
+							<div class="flight-info__column flight-info__column_right">
+								<img src="img/nw_logo.png" alt="Северный ветер"/>
+							</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип судна</div>
+							<div class="flight-info__column flight-info__column_right">Airbus-321</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Назначение</div>
+							<div class="flight-info__column flight-info__column_right">Барселона</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Время</div>
+							<div class="flight-info__column flight-info__column_right">1:35</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Статус</div>
+							<div class="flight-info__column flight-info__column_right">совершил посадку в 1:36</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Примечание</div>
+							<div class="flight-info__column flight-info__column_right">-</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="flight_id_4402" class="modal__backdrop">
+			<div class="modal">
+				<div class="modal__title">Информация о рейсе</div>
+				<a class="modal__close" href="#">
+					<svg viewBox="0 0 24 24" width="100%">
+                        <path fill="#000000" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+                    </svg>
+				</a>
+				<div class="modal__body">
+					<div class="flight-info">
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Номер рейса</div>
+							<div class="flight-info__column flight-info__column_right">4401</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип рейса</div>
+							<div class="flight-info__column flight-info__column_right">вылет</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Авиакомпания</div>
+							<div class="flight-info__column flight-info__column_right">Пегас Флай</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Логотип</div>
+							<div class="flight-info__column flight-info__column_right">
+								<img src="img/pegas_logo.png" alt="Пегас Флай" class="flight-board__cell-image"/>
+							</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип судна</div>
+							<div class="flight-info__column flight-info__column_right">Boeing-767-300</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Назначение</div>
+							<div class="flight-info__column flight-info__column_right">Ираклион</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Время</div>
+							<div class="flight-info__column flight-info__column_right">1:45</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Статус</div>
+							<div class="flight-info__column flight-info__column_right">посадка</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Примечание</div>
+							<div class="flight-info__column flight-info__column_right">Судно заменено на Boeing 737-800</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="flight_id_4461" class="modal__backdrop">
+			<div class="modal">
+				<div class="modal__title">Информация о рейсе</div>
+				<a class="modal__close" href="#">
+					<svg viewBox="0 0 24 24" width="100%">
+                        <path fill="#000000" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+                    </svg>
+				</a>
+				<div class="modal__body">
+					<div class="flight-info">
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Номер рейса</div>
+							<div class="flight-info__column flight-info__column_right">4460</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип рейса</div>
+							<div class="flight-info__column flight-info__column_right">вылет</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Авиакомпания</div>
+							<div class="flight-info__column flight-info__column_right">Аэрофлот</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Логотип</div>
+							<div class="flight-info__column flight-info__column_right">
+								<img src="img/aeroflot_logo.jpg" alt="Аэрофлот"/>
+							</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип судна</div>
+							<div class="flight-info__column flight-info__column_right">Airbus-319</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Назначение</div>
+							<div class="flight-info__column flight-info__column_right">Симферополь</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Время</div>
+							<div class="flight-info__column flight-info__column_right">2:00</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Статус</div>
+							<div class="flight-info__column flight-info__column_right">отменен</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Примечание</div>
+							<div class="flight-info__column flight-info__column_right">-</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="flight_id_1486" class="modal__backdrop">
+			<div class="modal">
+				<div class="modal__title">Информация о рейсе</div>
+				<a class="modal__close" href="#">
+					<svg viewBox="0 0 24 24" width="100%">
+                        <path fill="#000000" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+                    </svg>
+				</a>
+				<div class="modal__body">
+					<div class="flight-info">
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Номер рейса</div>
+							<div class="flight-info__column flight-info__column_right">1485</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип рейса</div>
+							<div class="flight-info__column flight-info__column_right">прилет</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Авиакомпания</div>
+							<div class="flight-info__column flight-info__column_right">Аэрофлот</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Логотип</div>
+							<div class="flight-info__column flight-info__column_right">
+								<img src="img/aeroflot_logo.jpg" alt="Аэрофлот"/>
+							</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип судна</div>
+							<div class="flight-info__column flight-info__column_right">Airbus-319</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Назначение</div>
+							<div class="flight-info__column flight-info__column_right">Уфа</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Время</div>
+							<div class="flight-info__column flight-info__column_right">2:20</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Статус</div>
+							<div class="flight-info__column flight-info__column_right">задержан</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Примечание</div>
+							<div class="flight-info__column flight-info__column_right">-</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="flight_id_3387" class="modal__backdrop">
+			<div class="modal">
+				<div class="modal__title">Информация о рейсе</div>
+				<a class="modal__close" href="#">
+					<svg viewBox="0 0 24 24" width="100%">
+                        <path fill="#000000" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+                    </svg>
+				</a>
+				<div class="modal__body">
+					<div class="flight-info">
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Номер рейса</div>
+							<div class="flight-info__column flight-info__column_right">3386</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип рейса</div>
+							<div class="flight-info__column flight-info__column_right">прилет</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Авиакомпания</div>
+							<div class="flight-info__column flight-info__column_right">Оренбургские авиалинии</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Логотип</div>
+							<div class="flight-info__column flight-info__column_right">
+								<img src="img/oren_logo.gif" alt="Оренбургские авиалинии"/>
+							</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип судна</div>
+							<div class="flight-info__column flight-info__column_right">Airbus-330-200</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Назначение</div>
+							<div class="flight-info__column flight-info__column_right">Ростов-на-Дону</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Время</div>
+							<div class="flight-info__column flight-info__column_right">2:56</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Статус</div>
+							<div class="flight-info__column flight-info__column_right">-</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Примечание</div>
+							<div class="flight-info__column flight-info__column_right">-</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="flight_id_6544" class="modal__backdrop">
+			<div class="modal">
+				<div class="modal__title">Информация о рейсе</div>
+				<a class="modal__close" href="#">
+					<svg viewBox="0 0 24 24" width="100%">
+                        <path fill="#000000" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+                    </svg>
+				</a>
+				<div class="modal__body">
+					<div class="flight-info">
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Номер рейса</div>
+							<div class="flight-info__column flight-info__column_right">6435</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип рейса</div>
+							<div class="flight-info__column flight-info__column_right">прилет</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Авиакомпания</div>
+							<div class="flight-info__column flight-info__column_right">Северный Ветер</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Логотип</div>
+							<div class="flight-info__column flight-info__column_right">
+								<img src="img/nw_logo.png" alt="Северный ветер"/>
+							</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип судна</div>
+							<div class="flight-info__column flight-info__column_right">Airbus-321</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Назначение</div>
+							<div class="flight-info__column flight-info__column_right">Омск</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Время</div>
+							<div class="flight-info__column flight-info__column_right">3:01</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Статус</div>
+							<div class="flight-info__column flight-info__column_right">-</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Примечание</div>
+							<div class="flight-info__column flight-info__column_right">-</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="flight_id_4444" class="modal__backdrop">
+			<div class="modal">
+				<div class="modal__title">Информация о рейсе</div>
+				<a class="modal__close" href="#">
+					<svg viewBox="0 0 24 24" width="100%">
+                        <path fill="#000000" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+                    </svg>
+				</a>
+				<div class="modal__body">
+					<div class="flight-info">
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Номер рейса</div>
+							<div class="flight-info__column flight-info__column_right">4443</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип рейса</div>
+							<div class="flight-info__column flight-info__column_right">вылет</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Авиакомпания</div>
+							<div class="flight-info__column flight-info__column_right">Пегас Флай</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Логотип</div>
+							<div class="flight-info__column flight-info__column_right">
+								<img src="img/pegas_logo.png" alt="Пегас Флай"/>
+							</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип судна</div>
+							<div class="flight-info__column flight-info__column_right">Boeing-767-300</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Назначение</div>
+							<div class="flight-info__column flight-info__column_right">Геленджик</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Время</div>
+							<div class="flight-info__column flight-info__column_right">3:02</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Статус</div>
+							<div class="flight-info__column flight-info__column_right">-</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Примечание</div>
+							<div class="flight-info__column flight-info__column_right">Судно заменено на Boeing 737-800</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="flight_id_2366" class="modal__backdrop">
+			<div class="modal">
+				<div class="modal__title">Информация о рейсе</div>
+				<a class="modal__close" href="#">
+					<svg viewBox="0 0 24 24" width="100%">
+                        <path fill="#000000" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+                    </svg>
+				</a>
+				<div class="modal__body">
+					<div class="flight-info">
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Номер рейса</div>
+							<div class="flight-info__column flight-info__column_right">2365</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип рейса</div>
+							<div class="flight-info__column flight-info__column_right">вылет</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Авиакомпания</div>
+							<div class="flight-info__column flight-info__column_right">Аэрофлот</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Логотип</div>
+							<div class="flight-info__column flight-info__column_right">
+								<img src="img/aeroflot_logo.jpg" alt="Аэрофлот"/>
+							</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип судна</div>
+							<div class="flight-info__column flight-info__column_right">Airbus-319</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Назначение</div>
+							<div class="flight-info__column flight-info__column_right">Самара</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Время</div>
+							<div class="flight-info__column flight-info__column_right">3:15</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Статус</div>
+							<div class="flight-info__column flight-info__column_right">-</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Примечание</div>
+							<div class="flight-info__column flight-info__column_right">-</div>
 						</div>
 					</div>
 				</div>
