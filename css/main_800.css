@@ -1,7 +1,7 @@
 .flight-board__cell-text_short {
-	display: inline;
+  display: inline;
 }
 
 .flight-board__cell-text_long {
-	display: none;
+  display: none;
 }

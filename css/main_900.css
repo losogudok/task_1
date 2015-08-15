@@ -1,35 +1,35 @@
 .flight-board__column_type {
-	width: 10%;
+  width: 10%;
 }
 
 .flight-board__column_number {
-	width: 10%;
+  width: 10%;
 }
 
 .flight-board__column_airline {
-	display: none;
+  display: none;
 }
 
 .flight-board__column_logo {
-	width: 20%;
+  width: 20%;
 }
 
 .flight-board__column_aircraft {
-	width: 10%;
+  width: 10%;
 }
 
 .flight-board__column_destination {
-	width: 15%;
+  width: 15%;
 }
 
 .flight-board__column_time {
-	width: 10%;
+  width: 10%;
 }
 
 .flight-board__column_status {
-	width: 10%;
+  width: 10%;
 }
 
 .flight-board__column_spec {
-	width: 15%;
+  width: 15%;
 }

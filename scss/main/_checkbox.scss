@@ -1,0 +1,24 @@
+.checkbox {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid white;
+    font-size: 20px;
+    text-align: center;
+
+	&::after {
+		content: "";
+		line-height: 20px;
+	    height: 20px;
+	    display: block;
+	}
+
+	&_checked {
+		&::after {
+			content: "\2713";
+		}
+	}
+}
+

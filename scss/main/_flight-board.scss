@@ -113,15 +113,35 @@
 		}
 	}
 
-	&__control-departure:not(:checked) ~ .flight-board__body {
+	//&__control-departure:not(:checked) ~ .flight-board__body {
+	//	.flight-board__departure {
+	//		display: none;
+	//	}
+	//}
+	//
+	//&__control-arrival:not(:checked) ~ .flight-board__body {
+	//	.flight-board__arrival {
+	//		display: none;
+	//	}
+	//}
+
+	&__control-departure:not(:checked) ~ * {
 		.flight-board__departure {
 			display: none;
 		}
+
+		.flight-board__checkbox-departure::after {
+			content: "";
+		}
 	}
 
-	&__control-arrival:not(:checked) ~ .flight-board__body {
+	&__control-arrival:not(:checked) ~ * {
 		.flight-board__arrival {
 			display: none;
+		}
+
+		.flight-board__checkbox-arrival::after {
+			content: "";
 		}
 	}
 }
