@@ -1,8 +1,16 @@
 .modal {
-	width: 300px;
-	height: 400px;
 	position: relative;
 	background-color: white;
+	padding: 30px;
+
+	&__title {
+	    text-align: center;
+		font-size: 24px;
+	}
+
+	&__body {
+	    padding-top: 20px;
+	}
 
 	&__backdrop {
 		display: none;

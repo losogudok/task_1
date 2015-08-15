@@ -39,86 +39,86 @@ html {
   box-sizing: border-box;
 }
 
-.table {
+.flight-board {
   width: 100%;
 }
 
-.table__header {
+.flight-board__header {
   display: table;
   width: 100%;
 }
 
-.table__body {
+.flight-board__body {
   overflow: hidden;
 }
 
-.table__row {
+.flight-board__row {
   display: table;
   width: 100%;
 }
 
-.table__row_odd {
+.flight-board__row_odd {
   background-color: rgba(204, 204, 204, 0.1);
 }
 
-.table__row:hover {
+.flight-board__row:hover {
   background-color: #fffcaa;
 }
 
-.table__row_link {
+.flight-board__row_link {
   color: inherit;
   text-decoration: none;
 }
 
-.table__row_link:visited {
+.flight-board__row_link:visited {
   color: inherit;
 }
 
-.table__row_link:active {
+.flight-board__row_link:active {
   color: inherit;
 }
 
-.table__row_link:hover {
+.flight-board__row_link:hover {
   color: inherit;
 }
 
-.table__column_type {
+.flight-board__column_type {
   width: 8%;
 }
 
-.table__column_number {
+.flight-board__column_number {
   width: 7%;
 }
 
-.table__column_airline {
+.flight-board__column_airline {
   width: 15%;
 }
 
-.table__column_logo {
+.flight-board__column_logo {
   width: 15%;
 }
 
-.table__column_aircraft {
+.flight-board__column_aircraft {
   width: 13%;
 }
 
-.table__column_destination {
+.flight-board__column_destination {
   width: 10%;
 }
 
-.table__column_time {
+.flight-board__column_time {
   width: 10%;
 }
 
-.table__column_status {
+.flight-board__column_status {
   width: 10%;
 }
 
-.table__column_spec {
+.flight-board__column_spec {
   width: 12%;
 }
 
-.table__cell {
+.flight-board__cell {
   position: relative;
   display: table-cell;
   text-align: center;
@@ -126,7 +126,7 @@ html {
   vertical-align: middle;
 }
 
-.table__cell_highlight:hover::after {
+.flight-board__cell_highlight:hover::after {
   content: "";
   position: absolute;
   background-color: #FFFCAA;
@@ -137,15 +137,15 @@ html {
   z-index: -1;
 }
 
-.table__cell-image {
+.flight-board__cell-image {
   max-width: 100%;
 }
 
-.table__cell-text_short {
+.flight-board__cell-text_short {
   display: none;
 }
 
-.table__cell-text_long {
+.flight-board__cell-text_long {
   display: inline;
 }
 
@@ -154,10 +154,18 @@ html {
 }
 
 .modal {
-  width: 300px;
-  height: 400px;
   position: relative;
   background-color: white;
+  padding: 30px;
+}
+
+.modal__title {
+  text-align: center;
+  font-size: 24px;
+}
+
+.modal__body {
+  padding-top: 20px;
 }
 
 .modal__backdrop {
@@ -183,10 +191,22 @@ html {
   top: 0;
   width: 30px;
   height: 30px;
-  font-size: 20px;
-  text-decoration: none;
-  color: inherit;
+}
+
+.flight-info__row {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  padding: 5px 0;
+}
+
+.flight-info__column_left {
+  text-align: left;
+  min-width: 150px;
+  margin-right: 50px;
+}
+
+.flight-info__column_right {
+  text-align: right;
+  max-width: 200px;
 }

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 	<head>
 		<meta charset="UTF-8">
 		<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:400,700,400italic&subset=latin,cyrillic'>
-		<link rel="stylesheet" href="css/main_1000.css"/>
+		<link rel="stylesheet" href="css/main.css"/>
 		<link rel="stylesheet" media="(max-width: 900px)" href="css/main_900.css"/>
 		<link rel="stylesheet" media="(max-width: 800px)" href="css/main_800.css"/>
 		<link rel="stylesheet" media="(max-width: 700px)" href="css/main_700.css"/>
@@ -21,162 +21,720 @@
 					<label for="departure" class="label">Вылет</label>
 				</div>
 			</div>
-			<div class="table__header">
-				<div class="table__column_type table__cell">
+			<div class="flight-board__header">
+				<div class="flight-board__column_type flight-board__cell">
 					Тип рейса
 				</div>
-				<div class="table__column_number table__cell">
+				<div class="flight-board__column_number flight-board__cell">
 					Hомер рейса
 				</div>
-				<div class="table__column_airline table__cell">
+				<div class="flight-board__column_airline flight-board__cell">
 					Авиакомпания
 				</div>
-				<div class="table__column_logo table__cell">
+				<div class="flight-board__column_logo flight-board__cell">
 					Логотип
 				</div>
-				<div class="table__column_aircraft table__cell">
+				<div class="flight-board__column_aircraft flight-board__cell">
 					Тип судна
 				</div>
-				<div class="table__column_destination table__cell">
+				<div class="flight-board__column_destination flight-board__cell">
 					Назначение
 				</div>
-				<div class="table__column_time table__cell">
+				<div class="flight-board__column_time flight-board__cell">
 					Время
 				</div>
-				<div class="table__column_status table__cell">
+				<div class="flight-board__column_status flight-board__cell">
 					Статус
 				</div>
-				<div class="table__column_spec table__cell">
+				<div class="flight-board__column_spec flight-board__cell">
 					Примечание
 				</div>
 			</div>
 		</div>
-		<div class="table__body page__body">
-			<a class="table__row table__row_odd table__row_link" href="#1">
-				<div class="table__cell table__cell_highlight table__column_type">
-					Вылет
+		<div class="flight-board__body page__body">
+			<a class="flight-board__row flight-board__row_odd flight-board__row_link" href="#flight_id_1805">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
+					вылет
 				</div>
-				<div class="table__cell table__cell_highlight table__column_number">
-					1
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_number">
+					1805
 				</div>
-				<div class="table__cell table__cell_highlight table__column_airline">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_airline">
 					Северный Ветер
 				</div>
-				<div class="table__cell table__cell_highlight table__column_logo">
-					<img src="img/nw_logo.png" alt="Северный ветер" class="table__cell-image"/>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_logo">
+					<img src="img/nw_logo.png" alt="Северный ветер" class="flight-board__cell-image"/>
 				</div>
-				<div class="table__cell table__cell_highlight table__column_aircraft">
-					<span class="table__cell-text_long">Airbus</span><span class="table__cell-text_short">A</span>-321
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_aircraft">
+					<span class="flight-board__cell-text_long">Airbus</span><span class="flight-board__cell-text_short">A</span>-321
 				</div>
-				<div class="table__cell table__cell_highlight table__column_destination">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_destination">
 					Монастир
 				</div>
-				<div class="table__cell table__cell_highlight table__column_time">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_time">
 					00:15
 				</div>
-				<div class="table__cell table__cell_highlight table__column_status">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_status">
 					вылетел
 				</div>
-				<div class="table__cell table__cell_highlight table__column_spec">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_spec">
 					-
 				</div>
 			</a>
-			<a class="table__row table__row_even table__row_link" href="#2">
-				<div class="table__cell table__cell_highlight table__column_type">
-					Вылет
+			<a class="flight-board__row flight-board__row_even flight-board__row_link" href="#flight_id_1341">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
+					вылет
 				</div>
-				<div class="table__cell table__cell_highlight table__column_number">
-					1
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_number">
+					1341
 				</div>
-				<div class="table__cell table__cell_highlight table__column_airline">
-					Северный Ветер
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_airline">
+					Оренбургские авиалинии
 				</div>
-				<div class="table__cell table__cell_highlight table__column_logo">
-					<img src="img/nw_logo.png" alt="Северный ветер" class="table__cell-image"/>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_logo">
+					<img src="img/oren_logo.gif" alt="Оренбургские авиалинии" class="flight-board__cell-image"/>
 				</div>
-				<div class="table__cell table__cell_highlight table__column_aircraft">
-					<span class="table__cell-text_long">Airbus</span><span class="table__cell-text_short">A</span>-321
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_aircraft">
+					<span class="flight-board__cell-text_long">Boeing</span><span class="flight-board__cell-text_short">B</span>777-200
 				</div>
-				<div class="table__cell table__cell_highlight table__column_destination">
-					Монастир
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_destination">
+					Льеж
 				</div>
-				<div class="table__cell table__cell_highlight table__column_time">
-					00:15
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_time">
+					00:56
 				</div>
-				<div class="table__cell table__cell_highlight table__column_status">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_status">
 					вылетел
 				</div>
-				<div class="table__cell table__cell_highlight table__column_spec">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_spec">
 					-
 				</div>
 			</a>
-			<a class="table__row table__row_odd table__row_link" href="#3">
-				<div class="table__cell table__cell_highlight table__column_type">
-					Вылет
+			<a class="flight-board__row flight-board__row_odd flight-board__row_link" href="#flight_id_1806">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
+					прилет
 				</div>
-				<div class="table__cell table__cell_highlight table__column_number">
-					1
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_number">
+					1806
 				</div>
-				<div class="table__cell table__cell_highlight table__column_airline">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_airline">
 					Северный Ветер
 				</div>
-				<div class="table__cell table__cell_highlight table__column_logo">
-					<img src="img/nw_logo.png" alt="Северный ветер" class="table__cell-image"/>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_logo">
+					<img src="img/nw_logo.png" alt="Северный ветер" class="flight-board__cell-image"/>
 				</div>
-				<div class="table__cell table__cell_highlight table__column_aircraft">
-					<span class="table__cell-text_long">Airbus</span><span class="table__cell-text_short">A</span>-321
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_aircraft">
+					<span class="flight-board__cell-text_long">Airbus</span><span class="flight-board__cell-text_short">A</span>-321
 				</div>
-				<div class="table__cell table__cell_highlight table__column_destination">
-					Монастир
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_destination">
+					Барселона
 				</div>
-				<div class="table__cell table__cell_highlight table__column_time">
-					00:15
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_time">
+					1:35
 				</div>
-				<div class="table__cell table__cell_highlight table__column_status">
-					вылетел
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_status">
+					совершил посадку в 1:36
 				</div>
-				<div class="table__cell table__cell_highlight table__column_spec">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_spec">
 					-
 				</div>
 			</a>
-			<a class="table__row table__row_even table__row_link" href="#4">
-				<div class="table__cell table__cell_highlight table__column_type">
-					Вылет
+			<a class="flight-board__row flight-board__row_even flight-board__row_link" href="#flight_id_4401">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
+					вылет
 				</div>
-				<div class="table__cell table__cell_highlight table__column_number">
-					1
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_number">
+					4401
 				</div>
-				<div class="table__cell table__cell_highlight table__column_airline">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_airline">
+					Пегас Флай
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_logo">
+					<img src="img/pegas_logo.png" alt="Пегас Флай" class="flight-board__cell-image"/>
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_aircraft">
+					<span class="flight-board__cell-text_long">Boeing</span><span class="flight-board__cell-text_short">B</span>-767-300
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_destination">
+					Ираклион
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_time">
+					1:45
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_status">
+					посадка
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_spec">
+					Судно заменено на Boeing 737-800
+				</div>
+			</a>
+			<a class="flight-board__row flight-board__row_odd flight-board__row_link" href="#flight_id_4460">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
+					вылет
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_number">
+					4460
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_airline">
+					Аэрофлот
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_logo">
+					<img src="img/aeroflot_logo.jpg" alt="Аэрофлот" class="flight-board__cell-image"/>
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_aircraft">
+					<span class="flight-board__cell-text_long">Airbus</span><span class="flight-board__cell-text_short">A</span>-319
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_destination">
+					Симферополь
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_time">
+					2:00
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_status">
+					отменен
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_spec">
+					-
+				</div>
+			</a>
+			<a class="flight-board__row flight-board__row_odd flight-board__row_link" href="#flight_id_1485">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
+					прилет
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_number">
+					1485
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_airline">
+					Аэрофлот
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_logo">
+					<img src="img/aeroflot_logo.jpg" alt="Аэрофлот" class="flight-board__cell-image"/>
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_aircraft">
+					<span class="flight-board__cell-text_long">Airbus</span><span class="flight-board__cell-text_short">A</span>-319
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_destination">
+					Уфа
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_time">
+					2:20
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_status">
+					задержан
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_spec">
+					-
+				</div>
+			</a>
+			<a class="flight-board__row flight-board__row_even flight-board__row_link" href="#flight_id_3386">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
+					прилет
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_number">
+					3386
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_airline">
+					Оренбургские авиалинии
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_logo">
+					<img src="img/oren_logo.gif" alt="Оренбургские авиалинии" class="flight-board__cell-image"/>
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_aircraft">
+					<span class="flight-board__cell-text_long">Airbus</span><span class="flight-board__cell-text_short">A</span>-330-200
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_destination">
+					Ростов-на-Дону
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_time">
+					2:56
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_status">
+					-
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_spec">
+					-
+				</div>
+			</a>
+			<a class="flight-board__row flight-board__row_odd flight-board__row_link" href="#flight_id_6543">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
+					прилет
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_number">
+					6543
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_airline">
 					Северный Ветер
 				</div>
-				<div class="table__cell table__cell_highlight table__column_logo">
-					<img src="img/nw_logo.png" alt="Северный ветер" class="table__cell-image"/>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_logo">
+					<img src="img/nw_logo.png" alt="Северный ветер" class="flight-board__cell-image"/>
 				</div>
-				<div class="table__cell table__cell_highlight table__column_aircraft">
-					<span class="table__cell-text_long">Airbus</span><span class="table__cell-text_short">A</span>-321
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_aircraft">
+					<span class="flight-board__cell-text_long">Airbus</span><span class="flight-board__cell-text_short">A</span>-321
 				</div>
-				<div class="table__cell table__cell_highlight table__column_destination">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_destination">
+					Омск
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_time">
+					3:01
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_status">
+					-
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_spec">
+					-
+				</div>
+			</a>
+			<a class="flight-board__row flight-board__row_even flight-board__row_link" href="#flight_id_4443">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
+					вылет
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_number">
+					4443
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_airline">
+					Пегас Флай
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_logo">
+					<img src="img/pegas_logo.png" alt="Пегас Флай" class="flight-board__cell-image"/>
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_aircraft">
+					<span class="flight-board__cell-text_long">Boeing</span><span class="flight-board__cell-text_short">B</span>-767-300
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_destination">
+					Геленджик
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_time">
+					3:02
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_status">
+					-
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_spec">
+					Судно заменено на Boeing 737-800
+				</div>
+			</a>
+			<a class="flight-board__row flight-board__row_odd flight-board__row_link" href="#flight_id_2365">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
+					вылет
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_number">
+					2365
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_airline">
+					Аэрофлот
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_logo">
+					<img src="img/aeroflot_logo.jpg" alt="Аэрофлот" class="flight-board__cell-image"/>
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_aircraft">
+					<span class="flight-board__cell-text_long">Airbus</span><span class="flight-board__cell-text_short">A</span>-319
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_destination">
+					Самара
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_time">
+					3:15
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_status">
+					-
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_spec">
+					-
+				</div>
+			</a>
+			<a class="flight-board__row flight-board__row_odd flight-board__row_link" href="#flight_id_1805">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
+					вылет
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_number">
+					1805
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_airline">
+					Северный Ветер
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_logo">
+					<img src="img/nw_logo.png" alt="Северный ветер" class="flight-board__cell-image"/>
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_aircraft">
+					<span class="flight-board__cell-text_long">Airbus</span><span class="flight-board__cell-text_short">A</span>-321
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_destination">
 					Монастир
 				</div>
-				<div class="table__cell table__cell_highlight table__column_time">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_time">
 					00:15
 				</div>
-				<div class="table__cell table__cell_highlight table__column_status">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_status">
 					вылетел
 				</div>
-				<div class="table__cell table__cell_highlight table__column_spec">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_spec">
+					-
+				</div>
+			</a>
+			<a class="flight-board__row flight-board__row_even flight-board__row_link" href="#flight_id_1341">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
+					вылет
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_number">
+					1341
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_airline">
+					Оренбургские авиалинии
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_logo">
+					<img src="img/oren_logo.gif" alt="Оренбургские авиалинии" class="flight-board__cell-image"/>
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_aircraft">
+					<span class="flight-board__cell-text_long">Boeing</span><span class="flight-board__cell-text_short">B</span>777-200
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_destination">
+					Льеж
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_time">
+					00:56
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_status">
+					вылетел
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_spec">
+					-
+				</div>
+			</a>
+			<a class="flight-board__row flight-board__row_odd flight-board__row_link" href="#flight_id_1806">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
+					прилет
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_number">
+					1806
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_airline">
+					Северный Ветер
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_logo">
+					<img src="img/nw_logo.png" alt="Северный ветер" class="flight-board__cell-image"/>
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_aircraft">
+					<span class="flight-board__cell-text_long">Airbus</span><span class="flight-board__cell-text_short">A</span>-321
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_destination">
+					Барселона
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_time">
+					1:35
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_status">
+					совершил посадку в 1:36
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_spec">
+					-
+				</div>
+			</a>
+			<a class="flight-board__row flight-board__row_even flight-board__row_link" href="#flight_id_4401">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
+					вылет
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_number">
+					4401
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_airline">
+					Пегас Флай
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_logo">
+					<img src="img/pegas_logo.png" alt="Пегас Флай" class="flight-board__cell-image"/>
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_aircraft">
+					<span class="flight-board__cell-text_long">Boeing</span><span class="flight-board__cell-text_short">B</span>-767-300
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_destination">
+					Ираклион
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_time">
+					1:45
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_status">
+					посадка
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_spec">
+					Судно заменено на Boeing 737-800
+				</div>
+			</a>
+			<a class="flight-board__row flight-board__row_odd flight-board__row_link" href="#flight_id_4460">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
+					вылет
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_number">
+					4460
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_airline">
+					Аэрофлот
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_logo">
+					<img src="img/aeroflot_logo.jpg" alt="Аэрофлот" class="flight-board__cell-image"/>
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_aircraft">
+					<span class="flight-board__cell-text_long">Airbus</span><span class="flight-board__cell-text_short">A</span>-319
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_destination">
+					Симферополь
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_time">
+					2:00
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_status">
+					отменен
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_spec">
+					-
+				</div>
+			</a>
+			<a class="flight-board__row flight-board__row_odd flight-board__row_link" href="#flight_id_1485">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
+					прилет
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_number">
+					1485
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_airline">
+					Аэрофлот
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_logo">
+					<img src="img/aeroflot_logo.jpg" alt="Аэрофлот" class="flight-board__cell-image"/>
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_aircraft">
+					<span class="flight-board__cell-text_long">Airbus</span><span class="flight-board__cell-text_short">A</span>-319
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_destination">
+					Уфа
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_time">
+					2:20
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_status">
+					задержан
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_spec">
+					-
+				</div>
+			</a>
+			<a class="flight-board__row flight-board__row_even flight-board__row_link" href="#flight_id_3386">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
+					прилет
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_number">
+					3386
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_airline">
+					Оренбургские авиалинии
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_logo">
+					<img src="img/oren_logo.gif" alt="Оренбургские авиалинии" class="flight-board__cell-image"/>
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_aircraft">
+					<span class="flight-board__cell-text_long">Airbus</span><span class="flight-board__cell-text_short">A</span>-330-200
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_destination">
+					Ростов-на-Дону
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_time">
+					2:56
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_status">
+					-
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_spec">
+					-
+				</div>
+			</a>
+			<a class="flight-board__row flight-board__row_odd flight-board__row_link" href="#flight_id_6543">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
+					прилет
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_number">
+					6543
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_airline">
+					Северный Ветер
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_logo">
+					<img src="img/nw_logo.png" alt="Северный ветер" class="flight-board__cell-image"/>
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_aircraft">
+					<span class="flight-board__cell-text_long">Airbus</span><span class="flight-board__cell-text_short">A</span>-321
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_destination">
+					Омск
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_time">
+					3:01
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_status">
+					-
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_spec">
+					-
+				</div>
+			</a>
+			<a class="flight-board__row flight-board__row_even flight-board__row_link" href="#flight_id_4443">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
+					вылет
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_number">
+					4443
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_airline">
+					Пегас Флай
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_logo">
+					<img src="img/pegas_logo.png" alt="Пегас Флай" class="flight-board__cell-image"/>
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_aircraft">
+					<span class="flight-board__cell-text_long">Boeing</span><span class="flight-board__cell-text_short">B</span>-767-300
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_destination">
+					Геленджик
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_time">
+					3:02
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_status">
+					-
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_spec">
+					Судно заменено на Boeing 737-800
+				</div>
+			</a>
+			<a class="flight-board__row flight-board__row_odd flight-board__row_link" href="#flight_id_2365">
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_type">
+					вылет
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_number">
+					2365
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_airline">
+					Аэрофлот
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_logo">
+					<img src="img/aeroflot_logo.jpg" alt="Аэрофлот" class="flight-board__cell-image"/>
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_aircraft">
+					<span class="flight-board__cell-text_long">Airbus</span><span class="flight-board__cell-text_short">A</span>-319
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_destination">
+					Самара
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_time">
+					3:15
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_status">
+					-
+				</div>
+				<div class="flight-board__cell flight-board__cell_highlight flight-board__column_spec">
 					-
 				</div>
 			</a>
 		</div>
-		<div id="1" class="modal__backdrop">
+		<div id="flight_id_1805" class="modal__backdrop">
 			<div class="modal">
-				<div class="modal__title">Рейс №1</div>
+				<div class="modal__title">Информация о рейсе</div>
 				<a class="modal__close" href="#">
-					<svg viewBox="0 0 24 24">
+					<svg viewBox="0 0 24 24" width="100%">
                         <path fill="#000000" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
                     </svg>
 				</a>
+				<div class="modal__body">
+					<div class="flight-info">
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Номер рейса</div>
+							<div class="flight-info__column flight-info__column_right">4401</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип рейса</div>
+							<div class="flight-info__column flight-info__column_right">вылет</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Авиакомпания</div>
+							<div class="flight-info__column flight-info__column_right">Пегас Флай</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Логотип</div>
+							<div class="flight-info__column flight-info__column_right">
+								<img src="img/pegas_logo.png" alt="Пегас Флай" class="flight-board__cell-image"/>
+							</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип судна</div>
+							<div class="flight-info__column flight-info__column_right">Boeing-767-300</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Назначение</div>
+							<div class="flight-info__column flight-info__column_right">Ираклион</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Время</div>
+							<div class="flight-info__column flight-info__column_right">1:45</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Статус</div>
+							<div class="flight-info__column flight-info__column_right">посадка</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Примечание</div>
+							<div class="flight-info__column flight-info__column_right">Судно заменено на Boeing 737-800</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="flight_id_4401" class="modal__backdrop">
+			<div class="modal">
+				<div class="modal__title">Информация о рейсе</div>
+				<a class="modal__close" href="#">
+					<svg viewBox="0 0 24 24" width="100%">
+                        <path fill="#000000" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+                    </svg>
+				</a>
+				<div class="modal__body">
+					<div class="flight-info">
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Номер рейса</div>
+							<div class="flight-info__column flight-info__column_right">4401</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип рейса</div>
+							<div class="flight-info__column flight-info__column_right">вылет</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Авиакомпания</div>
+							<div class="flight-info__column flight-info__column_right">Пегас Флай</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Логотип</div>
+							<div class="flight-info__column flight-info__column_right">
+								<img src="img/pegas_logo.png" alt="Пегас Флай" class="flight-board__cell-image"/>
+							</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Тип судна</div>
+							<div class="flight-info__column flight-info__column_right">Boeing-767-300</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Назначение</div>
+							<div class="flight-info__column flight-info__column_right">Ираклион</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Время</div>
+							<div class="flight-info__column flight-info__column_right">1:45</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Статус</div>
+							<div class="flight-info__column flight-info__column_right">посадка</div>
+						</div>
+						<div class="flight-info__row">
+							<div class="flight-info__column flight-info__column_left">Примечание</div>
+							<div class="flight-info__column flight-info__column_right">Судно заменено на Boeing 737-800</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</body>
