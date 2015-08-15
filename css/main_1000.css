@@ -1,0 +1,192 @@
+.g-hide {
+  display: none !important;
+}
+
+html {
+  height: 100%;
+}
+
+.page {
+  margin: 0;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.page__header {
+  background-color: #303F9F;
+  color: white;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  height: 120px;
+  z-index: 1;
+  top: 0;
+}
+
+.page__header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.page__title {
+  font-size: 28px;
+}
+
+.page__body {
+  padding-top: 120px;
+  box-sizing: border-box;
+}
+
+.table {
+  width: 100%;
+}
+
+.table__header {
+  display: table;
+  width: 100%;
+}
+
+.table__body {
+  overflow: hidden;
+}
+
+.table__row {
+  display: table;
+  width: 100%;
+}
+
+.table__row_odd {
+  background-color: rgba(204, 204, 204, 0.1);
+}
+
+.table__row:hover {
+  background-color: #fffcaa;
+}
+
+.table__row_link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.table__row_link:visited {
+  color: inherit;
+}
+
+.table__row_link:active {
+  color: inherit;
+}
+
+.table__row_link:hover {
+  color: inherit;
+}
+
+.table__column_type {
+  width: 8%;
+}
+
+.table__column_number {
+  width: 7%;
+}
+
+.table__column_airline {
+  width: 15%;
+}
+
+.table__column_logo {
+  width: 15%;
+}
+
+.table__column_aircraft {
+  width: 13%;
+}
+
+.table__column_destination {
+  width: 10%;
+}
+
+.table__column_time {
+  width: 10%;
+}
+
+.table__column_status {
+  width: 10%;
+}
+
+.table__column_spec {
+  width: 12%;
+}
+
+.table__cell {
+  position: relative;
+  display: table-cell;
+  text-align: center;
+  padding: 10px 0;
+  vertical-align: middle;
+}
+
+.table__cell_highlight:hover::after {
+  content: "";
+  position: absolute;
+  background-color: #FFFCAA;
+  left: 0;
+  top: -5000px;
+  height: 10000px;
+  width: 100%;
+  z-index: -1;
+}
+
+.table__cell-image {
+  max-width: 100%;
+}
+
+.table__cell-text_short {
+  display: none;
+}
+
+.table__cell-text_long {
+  display: inline;
+}
+
+.label {
+  cursor: pointer;
+}
+
+.modal {
+  width: 300px;
+  height: 400px;
+  position: relative;
+  background-color: white;
+}
+
+.modal__backdrop {
+  display: none;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.59);
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__backdrop:target {
+  display: flex;
+}
+
+.modal__close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,27 @@
+{
+	"name": "task_1",
+	"version": "1.0.0",
+	"description": "task 1 for shri 2015",
+	"main": "index.html",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/losogudok/task_1.git"
+	},
+	"keywords": [
+		"shri",
+		"html"
+	],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/losogudok/task_1/issues"
+	},
+	"homepage": "https://github.com/losogudok/task_1#readme",
+	"devDependencies": {
+		"gulp": "^3.9.0",
+		"gulp-sass": "^2.0.4"
+	}
+}

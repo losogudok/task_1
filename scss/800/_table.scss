@@ -1,0 +1,11 @@
+.table {
+	&__cell-text {
+		&_short {
+			display: inline;
+		}
+
+		&_long {
+			display: none;
+		}
+	}
+}

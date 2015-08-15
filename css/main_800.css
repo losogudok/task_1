@@ -1,0 +1,7 @@
+.table__cell-text_short {
+  display: inline;
+}
+
+.table__cell-text_long {
+  display: none;
+}

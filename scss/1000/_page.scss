@@ -1,0 +1,36 @@
+html {
+	height: 100%;
+}
+
+.page {
+	margin: 0;
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+
+	&__header {
+	    background-color: #303F9F;
+	    color: white;
+		position: fixed;
+		width: 100%;
+		box-sizing: border-box;
+	    height: 120px;
+		z-index: 1;
+		top: 0;
+	}
+
+	&__header-row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px;
+	}
+
+	&__title {
+		font-size: 28px;
+	}
+
+	&__body {
+        padding-top: 120px;
+        box-sizing: border-box;
+	}
+}

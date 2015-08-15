@@ -1,0 +1,39 @@
+.table {
+	&__column {
+		&_type {
+			width: 11%;
+		}
+
+		&_number {
+			width: 12%;
+		}
+
+		&_airline {
+			display: none;
+		}
+
+		&_logo {
+			width: 20%;
+		}
+
+		&_aircraft {
+			width: 13%;
+		}
+
+		&_destination {
+			width: 17%;
+		}
+
+		&_time {
+			width: 12%;
+		}
+
+		&_status {
+			width: 15%;
+		}
+
+		&_spec {
+			display: none;
+		}
+	}
+}
