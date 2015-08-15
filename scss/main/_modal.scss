@@ -4,25 +4,25 @@
 	padding: 30px;
 
 	&__title {
-	    text-align: center;
+		text-align: center;
 		font-size: 24px;
 	}
 
 	&__body {
-	    padding-top: 20px;
+		padding-top: 20px;
 	}
 
 	&__backdrop {
 		display: none;
-        height: 100%;
-	    position: fixed;
-	    top: 0;
-	    left: 0;
-	    width: 100%;
-	    background-color: rgba(0, 0, 0, 0.59);
-	    z-index: 2;
-	    justify-content: center;
-	    align-items: center;
+		height: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.59);
+		z-index: 2;
+		justify-content: center;
+		align-items: center;
 
 		&:target {
 			display: flex;
@@ -30,10 +30,10 @@
 	}
 
 	&__close {
-	    position: absolute;
-	    right: 0;
-	    top: 0;
-	    width: 30px;
-	    height: 30px;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 30px;
+		height: 30px;
 	}
 }

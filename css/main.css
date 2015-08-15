@@ -1,238 +1,238 @@
 .g-hide {
-  display: none !important;
+	display: none !important;
 }
 
 html {
-  height: 100%;
+	height: 100%;
 }
 
 .page {
-  margin: 0;
-  height: 100%;
-  font-family: 'Roboto', sans-serif;
+	margin: 0;
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
 }
 
 .page__header {
-  background-color: #303F9F;
-  color: white;
-  position: fixed;
-  width: 100%;
-  box-sizing: border-box;
-  height: 120px;
-  z-index: 1;
-  top: 0;
+	background-color: #303F9F;
+	color: white;
+	position: fixed;
+	width: 100%;
+	box-sizing: border-box;
+	height: 120px;
+	z-index: 1;
+	top: 0;
 }
 
 .page__header-row {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 10px;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: 10px;
 }
 
 .page__title {
-  font-size: 28px;
+	font-size: 28px;
 }
 
 .page__body {
-  padding-top: 120px;
-  box-sizing: border-box;
+	padding-top: 120px;
+	box-sizing: border-box;
 }
 
 .flight-board {
-  width: 100%;
+	width: 100%;
 }
 
 .flight-board__header {
-  display: table;
-  width: 100%;
+	display: table;
+	width: 100%;
 }
 
 .flight-board__body {
-  overflow: hidden;
+	overflow: hidden;
 }
 
 .flight-board__row {
-  display: table;
-  width: 100%;
+	display: table;
+	width: 100%;
 }
 
 .flight-board__row_odd {
-  background-color: rgba(204, 204, 204, 0.1);
+	background-color: rgba(204, 204, 204, 0.1);
 }
 
 .flight-board__row:hover {
-  background-color: #fffcaa;
+	background-color: #fffcaa;
 }
 
 .flight-board__row_link {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 .flight-board__row_link:visited {
-  color: inherit;
+	color: inherit;
 }
 
 .flight-board__row_link:active {
-  color: inherit;
+	color: inherit;
 }
 
 .flight-board__row_link:hover {
-  color: inherit;
+	color: inherit;
 }
 
 .flight-board__column_type {
-  width: 6%;
+	width: 6%;
 }
 
 .flight-board__column_number {
-  width: 7%;
+	width: 7%;
 }
 
 .flight-board__column_airline {
-  width: 15%;
+	width: 15%;
 }
 
 .flight-board__column_logo {
-  width: 15%;
+	width: 15%;
 }
 
 .flight-board__column_aircraft {
-  width: 13%;
+	width: 13%;
 }
 
 .flight-board__column_destination {
-  width: 12%;
+	width: 12%;
 }
 
 .flight-board__column_time {
-  width: 10%;
+	width: 10%;
 }
 
 .flight-board__column_status {
-  width: 10%;
+	width: 10%;
 }
 
 .flight-board__column_spec {
-  width: 12%;
+	width: 12%;
 }
 
 .flight-board__cell {
-  position: relative;
-  display: table-cell;
-  text-align: center;
-  padding: 10px 0;
-  vertical-align: middle;
+	position: relative;
+	display: table-cell;
+	text-align: center;
+	padding: 10px 0;
+	vertical-align: middle;
 }
 
 .flight-board__cell_highlight:hover::after {
-  content: "";
-  position: absolute;
-  background-color: #FFFCAA;
-  left: 0;
-  top: -5000px;
-  height: 10000px;
-  width: 100%;
-  z-index: -1;
+	content: "";
+	position: absolute;
+	background-color: #FFFCAA;
+	left: 0;
+	top: -5000px;
+	height: 10000px;
+	width: 100%;
+	z-index: -1;
 }
 
 .flight-board__cell-image {
-  max-width: 100%;
+	max-width: 100%;
 }
 
 .flight-board__cell-text_short {
-  display: none;
+	display: none;
 }
 
 .flight-board__cell-text_long {
-  display: inline;
+	display: inline;
 }
 
 .flight-board__control-departure:not(:checked) ~ .flight-board__body .flight-board__departure {
-  display: none;
+	display: none;
 }
 
 .flight-board__control-arrival:not(:checked) ~ .flight-board__body .flight-board__arrival {
-  display: none;
+	display: none;
 }
 
 .label {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .modal {
-  position: relative;
-  background-color: white;
-  padding: 30px;
+	position: relative;
+	background-color: white;
+	padding: 30px;
 }
 
 .modal__title {
-  text-align: center;
-  font-size: 24px;
+	text-align: center;
+	font-size: 24px;
 }
 
 .modal__body {
-  padding-top: 20px;
+	padding-top: 20px;
 }
 
 .modal__backdrop {
-  display: none;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.59);
-  z-index: 2;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+	display: none;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.59);
+	z-index: 2;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
 
 .modal__backdrop:target {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
 }
 
 .modal__close {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 30px;
-  height: 30px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 30px;
+	height: 30px;
 }
 
 .flight-info__row {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 5px 0;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: 5px 0;
 }
 
 .flight-info__column_left {
-  text-align: left;
-  min-width: 150px;
-  margin-right: 50px;
+	text-align: left;
+	min-width: 150px;
+	margin-right: 50px;
 }
 
 .flight-info__column_right {
-  text-align: right;
-  max-width: 200px;
+	text-align: right;
+	max-width: 200px;
 }
